@@ -53,7 +53,7 @@ if ingredients_list:
    #     st.stop()
         
    #     fv_df = search_on(data=fruityvice_response.json(), use_container_width=True)
-         fv_df = sd.dataframe(data=fruityvice_response.json(), use_container_width=True)
+    fv_df = sd.dataframe(data=fruityvice_response.json(), use_container_width=True)
     
     st.write(ingredients_string)
 
